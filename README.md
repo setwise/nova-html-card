@@ -1,7 +1,7 @@
 # Nova HTML Card
 
-[![Latest Stable Version](https://poser.pugx.org/interaction-design-foundation/nova-html-card/v/stable)](https://packagist.org/packages/interaction-design-foundation/nova-html-card)
-[![Total Downloads](https://poser.pugx.org/interaction-design-foundation/nova-html-card/downloads)](https://packagist.org/packages/interaction-design-foundation/nova-html-card)
+[![Latest Stable Version](https://poser.pugx.org/setwise/nova-html-card/v/stable)](https://packagist.org/packages/setwise/nova-html-card)
+[![Total Downloads](https://poser.pugx.org/setwise/nova-html-card/downloads)](https://packagist.org/packages/setwise/nova-html-card)
 
 ![image](https://user-images.githubusercontent.com/5278175/144929955-20b6d02f-3298-48bf-8780-e0fb3b723641.png)
 
@@ -15,7 +15,7 @@ Adds a card to the Laravel Nova dashboard with any arbitrary HTML content.
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require interaction-design-foundation/nova-html-card
+composer require setwise/nova-html-card
 ```
 
 
@@ -24,7 +24,7 @@ composer require interaction-design-foundation/nova-html-card
 [Register your new card](https://nova.laravel.com/docs/2.0/customization/cards.html#registering-cards).
 
 ```php
-use InteractionDesignFoundation\HtmlCard\HtmlCard;
+use Setwise\HtmlCard\HtmlCard;
 
 public function cards()
 {
@@ -60,7 +60,7 @@ Our package provides an API to cover all cases covered by these packages plus ad
 
 ## Changelog
 
-Please see [Releases](https://github.com/InteractionDesignFoundation/nova-html-card/releases) for more information on what has changed recently.
+Please see [Releases](https://github.com/Setwise/nova-html-card/releases) for more information on what has changed recently.
 
 
 ## Contributing
