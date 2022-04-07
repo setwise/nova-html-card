@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace InteractionDesignFoundation\HtmlCard\Tests;
+namespace Setwise\HtmlCard\Tests;
 
-use InteractionDesignFoundation\HtmlCard\CardServiceProvider;
+use Setwise\HtmlCard\CardServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase

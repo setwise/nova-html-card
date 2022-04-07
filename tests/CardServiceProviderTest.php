@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace InteractionDesignFoundation\HtmlCard\Tests;
+namespace Setwise\HtmlCard\Tests;
 
-use InteractionDesignFoundation\HtmlCard\MarkdownConverter;
+use Setwise\HtmlCard\MarkdownConverter;
 use Illuminate\Support\Facades\App;
 
 final class CardServiceProviderTest extends TestCase
