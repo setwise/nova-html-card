@@ -1,5 +1,5 @@
 {
-    "name": "interaction-design-foundation/nova-html-card",
+    "name": "setwise/nova-html-card",
     "description": "A Laravel Nova card to display arbitrary HTML content",
     "keywords": [
         "laravel",
@@ -26,18 +26,18 @@
     ],
     "autoload": {
         "psr-4": {
-            "InteractionDesignFoundation\\HtmlCard\\": "src/"
+            "Setwise\\HtmlCard\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "InteractionDesignFoundation\\HtmlCard\\Tests\\": "tests"
+            "Setwise\\HtmlCard\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "InteractionDesignFoundation\\HtmlCard\\CardServiceProvider"
+                "Setwise\\HtmlCard\\CardServiceProvider"
             ]
         }
     },
